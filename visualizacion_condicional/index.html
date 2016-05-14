@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Visualización Condicional</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+</head>
+<body ng-app>
+  <div class="wrapper">
+    <label><input type="checkbox" id="show-info" ng-model="checked"> Mostrar información importante</label>
+    <p class="info" ng-show="checked">Data-binding en AngularJS es la sincronización automática de datos entre el modelo y la vista. La forma en que AngularJS implementa data-binding te permite tratar el modelo como la fuente única de la verdad. La vista es solo una proyección del modelo en todo momento.</p>
+  </div>
+  <hr>
+  <a href="../index.html">atrás</a>
+</body>
+</html>
